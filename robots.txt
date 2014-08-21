@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://carojane.github.io/sitemap.xml 
+Sitemap: http://carojane.github.io/sitemap.xml
