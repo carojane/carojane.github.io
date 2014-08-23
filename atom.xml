@@ -4,7 +4,7 @@
   <title><![CDATA[carojane]]></title>
   <link href="http://carojane.github.io/atom.xml" rel="self"/>
   <link href="http://carojane.github.io/"/>
-  <updated>2014-08-21T22:45:06-04:00</updated>
+  <updated>2014-08-23T16:18:35-04:00</updated>
   <id>http://carojane.github.io/</id>
   <author>
     <name><![CDATA[Carly J Pulver]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Practical Magic]]></title>
+    <link href="http://carojane.github.io/blog/2014/08/23/practical-magic/"/>
+    <updated>2014-08-23T15:30:11-04:00</updated>
+    <id>http://carojane.github.io/blog/2014/08/23/practical-magic</id>
+    <content type="html"><![CDATA[<p>Woah, there. You thought things were going so well. You thought you knew your stuff. You thought, &lsquo;Maybe I&rsquo;ll actually make it as a web developer, after all.&rsquo;</p>
+
+<p><strong>HA HA HA HA HA HA HA HA HA !!!</strong></p>
+
+<!-- more -->
+
+
+<p>Okay, I&rsquo;m not really horribly discouraged, and I&rsquo;m not strugging completely, but I have to admit that the momentum has slowed down considerably this week.</p>
+
+<p>It started out fine. We learned HTML and CSS, both of which I enjoy playing around with. I like frontend, though I&rsquo;m not strong at it, and I want to learn more about CSS (especially using frameworks) and javascript.</p>
+
+<p>The trouble started when we were introduced to Sinatra. Keeping a Ruby file nice and clean is important, which is true about html and css files as well. It&rsquo;s important for readability and for making sure the program works by having matching variable names and calling the right methods. Keeping up with changes between the erb file and the ruby file in Sinatra, even when they are both nicely organized and clean, is a pain. Make one change here, the program crashes. Forget an argument here, the program crashes. And it&rsquo;s much more difficult to zero in on the problem than it was just running a ruby program in iTerm.</p>
+
+<p>And then Heroku came into play.</p>
+
+<p>Heroku, it seems, hates pry. If I have <code>require 'pry'</code> at the top of my server.rb file, the site gives me an error. I had to figure out what was wrong by digging through hundreds of lines in the logs.</p>
+
+<p>Now that I think about it, it probably has to go into the Gemfile in order to work. So, there&rsquo;s that. The problem is that I set up Heroku by following a list of steps, which was more than problematic. Also, I&rsquo;m not entirely sure I understood what went into each step.</p>
+
+<p>First, in order to install the redis-cli library, I had to change the settings of <code>usr/local/bin</code> to be writtable. I write that as if I knew how to do that before I did it. I figured it out and got redis installed and linked, and changed my server.rb file to refer to a redis directory instead of a csv. I&rsquo;m still not sure how it works, but it did, so I&rsquo;m not looking a gift horse in the mouth on that one.</p>
+
+<p>There were a few hickups with installing the Gemfile (copying word for word from the instructions lead to things not working sometimes), but it worked.</p>
+
+<p>So, next, I deployed to heroku. It was a mess. It didn&rsquo;t have css, so I had to go in and clean up where my files were linked, and then it stopped working altogether getting a &ldquo;<em>Internal Server Error</em>&rdquo;.</p>
+
+<p>There was nothing in the logs that I could find that would explain it, so I went to the oracle (google.com) and searched there. The heroku faq had a step listed in its deployment instructions that weren&rsquo;t in the instructions I was following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ heroku ps:scale web=1</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And it worked. At least, it mostly worked. I got my website deployed, and it looked okay. But for some reason, every so often, it will come back with &ldquo;<em>Internal Server Error</em>&rdquo;. I have no idea what&rsquo;s going on and the oracle isn&rsquo;t helping, so I&rsquo;m done playing for today.</p>
+
+<p>Full disclosure, deploying to Heroku was an optional assignment, but I&rsquo;m glad I did it. We will be going over deploying to the web soon, and I&rsquo;m happy to have the learning experience out of the way. For the rest of the weekend, I&rsquo;m going to learn some javaScript and check out css frameworks.</p>
+
+<p>We finished stage &lsquo;Alpha&rsquo; this week, which covered the fundimentals of Ruby, HTML and CSS, as well as Sinatra. The next two weeks are in stage &lsquo;Bravo&rsquo;, where we will be databasing it up, along with learning Object Oriented design. I&rsquo;m ready.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[One Week Closer]]></title>
