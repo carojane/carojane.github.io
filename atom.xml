@@ -4,7 +4,7 @@
   <title><![CDATA[carojane]]></title>
   <link href="http://carojane.github.io/atom.xml" rel="self"/>
   <link href="http://carojane.github.io/"/>
-  <updated>2014-08-23T16:18:35-04:00</updated>
+  <updated>2014-09-02T08:41:18-04:00</updated>
   <id>http://carojane.github.io/</id>
   <author>
     <name><![CDATA[Carly J Pulver]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[I Have Confidence in Me]]></title>
+    <link href="http://carojane.github.io/blog/2014/08/29/i-have-confidence-in-me/"/>
+    <updated>2014-08-29T23:14:59-04:00</updated>
+    <id>http://carojane.github.io/blog/2014/08/29/i-have-confidence-in-me</id>
+    <content type="html"><![CDATA[<p>This was a good week, because I really feel like I&rsquo;m doing well. I am getting everything they throw at me, and the challenges are feeling almost easy at times. It&rsquo;s dangerous, really, as I let myself get distracted and didn&rsquo;t engage enough with my cohort. Part of that may have been a little burnout, so I&rsquo;m glad that this weekend was a long weekend and that I took advantage of it by going home.</p>
+
+<!-- more -->
+
+
+<p>One cool thing happend on the way home. My dad picked me up at the train station in Albany and we drove the rest of the way, which was fun. We were listening to the Radio Lab podcast and they did a piece on numbers, mentioning the Fibonacci sequence. Math geeks that we are, we tried to recite the sequence, but didn&rsquo;t very far. Having my laptop out, I wrote a quick program to output the fibonacci sequence up to a given didgit.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>def fib(digit, array = [0, 1])
+</span><span class='line'>  array = array
+</span><span class='line'>  until array.length == digit
+</span><span class='line'>    next_digit = array[-1] + array[-2]
+</span><span class='line'>    array &lt;&lt; next_digit
+</span><span class='line'>  end
+</span><span class='line'>  array
+</span><span class='line'>end
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I ran <code>fib(1000)</code> and it spit out all 1000 numbers (or 999 plus 0). This is the second fibonacci program I have written - the other only spat out the digit given, and since it used regression, it was a slow running program past 24 digits. Of course, I&rsquo;m not entirely sure how accurate the program is, since I don&rsquo;t know off hand the 1000th digit in the fibonacci sequence. Still, I&rsquo;m really proud that I&rsquo;ve become a programmer without even noticing.</p>
+
+<p>While I have this high-flying confidence, I&rsquo;m still insanely aware of how much I don&rsquo;t know. I still have to work on javaScript and jQuery, which has been a side project this week, and is not clicking as well as I would like. I also want to start reading some books on Ruby to advance my knowledge a bit more.</p>
+
+<p>SQL was super easy for me - mostly because I have worked with databases before. Who knew stats and SPSS would be good preparation for coding? I just hope that the ease I felt last week doesn&rsquo;t mean that I have missed something important.</p>
+
+<p>It&rsquo;s a new month and we&rsquo;re like a quarter of the way through the program. Still feeling good.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Practical Magic]]></title>
