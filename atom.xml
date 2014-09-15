@@ -4,7 +4,7 @@
   <title><![CDATA[carojane]]></title>
   <link href="http://carojane.github.io/atom.xml" rel="self"/>
   <link href="http://carojane.github.io/"/>
-  <updated>2014-09-06T21:23:17-04:00</updated>
+  <updated>2014-09-15T08:11:01-04:00</updated>
   <id>http://carojane.github.io/</id>
   <author>
     <name><![CDATA[Carly J Pulver]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scaling the Mountain]]></title>
+    <link href="http://carojane.github.io/blog/2014/09/15/scaling-the-mountain/"/>
+    <updated>2014-09-15T07:34:32-04:00</updated>
+    <id>http://carojane.github.io/blog/2014/09/15/scaling-the-mountain</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s official. Launch Academy is halfway through and over and done. That means only five more weeks of structured learning and guided projects before I&rsquo;m expected to go back out into the big bad world and actually be a Computer Programmer.</p>
+
+<!-- more -->
+
+
+<p>This past week, I had to get over a lot of frustration with the program and with myself, as I feel like I am learning so much, am confident I am rocking the knowledge, and almost feel like things are moving too slow. Reality check, Carly. I am confident in my skills, but I am still a beginner (maybe Advanced Beginner?).</p>
+
+<p>When I went to the EEs about my concerns, they challenged me to make my own projects and use what I&rsquo;ve learned so far to start building an app. Okay, scary. I didn&rsquo;t even realize how terrifying a prospect that was, until I was issued that challenge.</p>
+
+<p>In just three weeks, I will be building my Breakable Toy, a full feature app to showcase my skills. And I have no idea what that app will be.</p>
+
+<p>On Tuesday, in lieu of lecture, we had a brainstorming session for ideas of things we could build or work on the side to practice our skills, or to learn new things.</p>
+
+<p>I now have a couple of ideas of projects to work on, and with a little more confidence behind me I built a site to log my work while here at Launch Academy. There are links to different projects that we have worked on, the names of the weekly Systems Checks, links to this blog, and a list of the side projects I have done as well. The formatting may have to change as we get into the group project and Breakable Toy weeks, but it works for now.</p>
+
+<p><img src="http://carojane.github.io/images/alphacal.png" title="Alpha Calendar" alt="a alpha" /></p>
+
+<p>Originally, I hardcoded all the data, but as we were learning about SQL and ActiveRecord, I changed moved it to a database. This way, I can update the info for the remaining weeks without going into the HTML each time. Even though I really enjoy playing around with the HTML and CSS. I used tables! In the way tables are actually meant to be used! (Not just in the annoying way n00bs use them.) And to facilitate me updating the site, I used forms to access the database.</p>
+
+<p><img src="http://carojane.github.io/images/assignmentlog.png" title="Assignment Form" alt="a assignment" /></p>
+
+<p>I&rsquo;m actually quite proud of myself, even if it is a relatively simple site and project. It really showcases what I have learned, while showcasing what I have actually learned!</p>
+
+<p>This week, we FINALLY get to Rails. Also, I have two competing project ideas that are begging me to get started.</p>
+
+<p>Halfway through means I still have five weeks left, and a whole lot to learn.</p>
+
+<p>As 11 put it, Geronimo.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Overheated]]></title>
