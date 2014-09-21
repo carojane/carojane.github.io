@@ -4,7 +4,7 @@
   <title><![CDATA[carojane]]></title>
   <link href="http://carojane.github.io/atom.xml" rel="self"/>
   <link href="http://carojane.github.io/"/>
-  <updated>2014-09-15T08:11:01-04:00</updated>
+  <updated>2014-09-21T17:29:07-04:00</updated>
   <id>http://carojane.github.io/</id>
   <author>
     <name><![CDATA[Carly J Pulver]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Go Your Own Way]]></title>
+    <link href="http://carojane.github.io/blog/2014/09/21/go-your-own-way/"/>
+    <updated>2014-09-21T16:23:23-04:00</updated>
+    <id>http://carojane.github.io/blog/2014/09/21/go-your-own-way</id>
+    <content type="html"><![CDATA[<p>We have been notified that the formal learning portion of Launch Academy is now over. This doesn&rsquo;t mean that we won&rsquo;t be learning anything at all, because there is still so much to go over, but most of those will be learned through actually building apps at this point.</p>
+
+<!-- more -->
+
+
+<p>We finally got to Rails this week. It&rsquo;s a bit confusing, remembering all the MVC steps necessary to make sure everything works, but it makes everything easier to build bigger and complicated apps. The forms builder is interesting - you can use ruby to populate a drop down menu through ActiveRecord easily. There&rsquo;s still a lot more to learn about all the Rails features, and there are so many gems out there to use, so it&rsquo;s a bit overwhelming, but I&rsquo;m excited!</p>
+
+<p><img src="http://carojane.github.io/images/fox.jpg" title="What does the fox say?" alt="a fox" /></p>
+
+<p>This weekend was awesome. I participated as a TA at RailsBridge Boston, which was so rewarding. There was a large group of women who are enthusiatic about coding and many of them are in the same situation as me: seeking a new career.</p>
+
+<p>I led a breakout goup in the afternoon about changing careers and it was pretty popular. While I emphasized that there are many paths to follow, the other TAs in the group and I were all following the bootcamp path, so most of the questions were about Launch and other bootcamps. I actually hope that this weekend leads to more women going through Launch, because the ratio of men to women is a little depressing right now.</p>
+
+<p>There were women from earlier Launch cohorts who were also acting as TAs and I got to bond with them, comparing notes on our experiences, and hearing about how far they have come since their cohort ended. They all have interesting jobs and seem to really enjoy where they are. It makes me very excited about getting a job after the program is over. Although the weather is a major deterrant, I think Boston would be an awesome town to end up in because of the great Ruby community that I&rsquo;m meeting here.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Scaling the Mountain]]></title>
