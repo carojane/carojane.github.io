@@ -53,16 +53,16 @@
   
   <url>
     <loc>http://carojane.github.io/blog/archives/</loc>
-    <lastmod>2014-10-08T07:56:44-04:00</lastmod>
+    <lastmod>2014-10-08T07:57:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://carojane.github.io/blog/</loc>
-    <lastmod>2014-10-08T07:56:44-04:00</lastmod>
+    <loc>http://carojane.github.io/</loc>
+    <lastmod>2014-10-08T07:57:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>1.0</priority>
   </url>
   
   
