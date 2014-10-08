@@ -53,17 +53,23 @@
   
   <url>
     <loc>http://carojane.github.io/blog/archives/</loc>
-    <lastmod>2014-09-21T17:29:07-04:00</lastmod>
+    <lastmod>2014-10-08T07:56:44-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://carojane.github.io/</loc>
-    <lastmod>2014-09-21T17:29:07-04:00</lastmod>
+    <loc>http://carojane.github.io/blog/</loc>
+    <lastmod>2014-10-08T07:56:44-04:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
   
+  
+  <url>
+    <loc>http://carojane.github.io/images/WIP CP styling by carojane · Pull Request #25 · LaunchAcademy ok_bus.html</loc>
+    <lastmod>2014-09-25T15:28:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
